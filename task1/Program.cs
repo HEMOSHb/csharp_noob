@@ -6,3 +6,8 @@
 // 4 -> 16
 // -3 -> 9
 // -7 -> 49
+
+Console.Write("Введите число: ");
+int number = int.Parse(Console.ReadLine()!);
+Console.Write("Квадрат числа = ");
+Console.WriteLine(number * number);
