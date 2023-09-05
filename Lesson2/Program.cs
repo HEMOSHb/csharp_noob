@@ -77,3 +77,33 @@
 //     }
 // }
 // Kpatno(A);
+
+// Напишите программу, которая принимает на
+// вход два числа и проверяет, является ли одно
+// число квадратом другого.
+// 5, 25 -> да
+// -4, 16 -> да
+// 25, 5 -> да
+// 8,9 -> нет
+
+// Console.Write("Введите число A = ");
+// int A = int.Parse(Console.ReadLine ());
+// Console.Write("Введите число B = ");
+// int B = int.Parse(Console.ReadLine ());
+// void Square (int A, int B)
+// {
+//     if (A*A == B)
+//     {
+//       Console.Write ("ДА, A - это квадрат B");  
+//     }
+//     else if (B*B == A)
+//     {
+//         Console.Write ("ДА, B - это квадрат A");
+//     }
+//     else
+//     {
+//         Console.Write ("Нет конечно, это неправда");
+//     }
+
+// }
+// Square (A,B);
