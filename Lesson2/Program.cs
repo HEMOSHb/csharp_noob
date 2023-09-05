@@ -49,8 +49,31 @@
 //     else
 //     {
 //         int remainder = B % A;
-//         Console.Write($"Не кратно,{remainder}");
+//         Console.Write($"Не кратно, остаток от деления = {remainder}");
 //     }
 // }
 // Multiply(A,B);
 
+// 14. Напишите программу, которая принимает на
+// вход число и проверяет, кратно ли оно
+// одновременно 7 и 23.
+// 14 -> нет
+// 46 -> нет
+// 161 -> да
+
+// Console.Write("Введите число А = ");
+// int A = int.Parse(Console.ReadLine());
+// void Kpatno (int A)
+// {
+//     if (A%23 == 0 && A%7 ==0)
+//     {
+
+//     Console.Write("ДА");
+       
+//     }
+// else
+//     {
+//         Console.Write("Неееееааа!");
+//     }
+// }
+// Kpatno(A);
