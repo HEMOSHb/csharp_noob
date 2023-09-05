@@ -72,7 +72,7 @@
 //     Console.WriteLine(firstNumber);
 // }
 
-Строчный вариант
+// Строчный вариант
 
 // Console.Write("Введите число: ");
 // string number = Console.ReadLine();
@@ -86,7 +86,7 @@
 //     Console.WriteLine("Вы ввели не трехзначное число");
 // }
 
-Второй вариант
+// Второй вариант
 
 // class Program
 // {
