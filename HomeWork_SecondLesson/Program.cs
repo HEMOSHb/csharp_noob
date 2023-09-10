@@ -19,10 +19,10 @@
 // Второй способ решения задачи №10 с помощью метода promt.
 // int Promt (string message)
 // {
-//     System.Console.Write(message);
-//     string value=Console.ReadLine();
-//     int result = Convert.ToInt32(value);
-//     return result;
+//     Console.Write(message);
+// string value = Console.ReadLine();
+// int result = Convert.ToInt32(value);
+// return resault;     
 // }
 // int number = Promt("Введите трехзначное число > ");
 // if (number < 100 || number >= 1000)
@@ -68,6 +68,38 @@
 //     Console.Write("У этого числа нет третьей цифры, попробуй еще ;-)");
 // }
 
+// Второй способ решить Задачу №13
+// using System.Globalization;
+
+// int Promt(string message)
+// {
+//     Console.Write(message);
+//     string value=Console.ReadLine();
+//     int result = Convert.ToInt32(value);
+//     return result;
+// }
+// int GetThirdRank(int number)
+// {
+//     while (number > 999)
+//     {
+//         number/=10;
+//     }
+//     return number % 10;
+// }
+// bool ValidateNumber(int number)
+// {
+//     if (number<100)
+//     {
+//         Console.WriteLine("Третьей цифры нет");
+//         return false;
+//     }
+//     return true;
+// }
+// int number=Promt("Введите число > ");
+// if (ValidateNumber(number))
+// {
+//     Console.WriteLine(GetThirdRank(number));
+// }
 // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 // 6 -> да
 // 7 -> да
