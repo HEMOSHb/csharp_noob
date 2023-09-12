@@ -155,3 +155,36 @@
 // double Yb = Find_lentgh_btw_2_points("Точка B, координата Y = ");
 // Console.Write(Length(Xa,Ya,Xb,Yb));
 
+// Задача 22: Напишите программу, которая
+// принимает на вход число (N) и выдаёт таблицу
+// квадратов чисел от 1 до N.
+// 5 -> 1, 4, 9, 16, 25.
+// 2 -> 1,4
+
+// int num = Find_lentgh_btw_2_points("Введите число = ");
+// int[] mass = square(num);
+// Printmassive(mass);
+
+// int Find_lentgh_btw_2_points(string message) 
+// { 
+// Console.Write(message); 
+// int number = int.Parse(Console.ReadLine()); 
+// return number; 
+// } 
+// int[] square(int number) 
+// { 
+//     int[] massive = new int[number]; 
+//     for (int i=0; i<number; i++) 
+//     { 
+//         massive[i] = (i+1) * (i + 1); 
+//     } 
+//     return massive;
+// } 
+// void Printmassive(int[] array)
+// {
+//     for (int i = 0; i<array.Length; i++)
+//     {
+//         Console.Write(array[i] + " ");
+//     }
+// }
+
