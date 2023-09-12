@@ -91,3 +91,40 @@
 // int X = returnMethod("Введите точку X = ");
 // int Y = returnMethod("Введите точку Y = ");
 // Console.Write(FindQuater(X,Y));
+
+// Напишите программу, которая по заданному номеру четверти, показывает диапазон 
+// возможных координат точек в этой четверти (x и y).
+
+// int FindCoordinate_Method(string message)
+// {
+//     Console.WriteLine(message);
+//     int quater = int.Parse(Console.ReadLine());
+//     return quater;
+// }
+// String FindCoordinate(int quater)
+// {
+//     string result = string.Empty;
+//     if (quater == 1)
+//     {
+//     result = "X>0; Y>0"; 
+//     }
+//     else if (quater == 2)
+//     {
+//     result = "X<0; Y>0";
+//     }
+//     else if (quater == 3)
+//     {
+//         result = "X<0; Y<0";
+//     }
+//     else if (quater == 4)
+//     {
+//         result = "X>0; Y<0";
+//     }
+//     else
+//     {
+//     result = "Ошибка";
+//     }
+//     return result;
+// }
+// int quater = FindCoordinate_Method("Какая четверть?");
+// Console.Write(FindCoordinate(quater));
