@@ -26,32 +26,68 @@
 // }
 // Quater (X,Y);
 
-int returnMethod (string message)
-{
-    Console.Write(message);
-    int quantity = int.Parse(Console.ReadLine());
-    return quantity;
-}
-int X=returnMethod("Введите точку X = ");
-int Y=returnMethod("Введите точку Y = ");
-if (X>0 && Y>0)
-{
-    Console.Write("I Четверть");
-}
- else if (X<0 && Y>0)
-    {
-        Console.Write("II Четверть");
-    }
-    else if (X<0 && Y<0)
-    {
-        Console.Write("III Четверть");
-    }
-    else if (X>0 && Y<0)
-    {
-        Console.Write("IV Четверть");
-    }
-    else
-    {
-        Console.Write("Ошибка")
-    }
-}
+// int returnMethod (string message)
+// {
+//     Console.Write(message);
+//     int quantity = int.Parse(Console.ReadLine());
+//     return quantity;
+// }
+// int X=returnMethod("Введите точку X = ");
+// int Y=returnMethod("Введите точку Y = ");
+// if (X>0 && Y>0)
+// {
+//     Console.Write("I Четверть");
+// }
+//  else if (X<0 && Y>0)
+//     {
+//         Console.Write("II Четверть");
+//     }
+//     else if (X<0 && Y<0)
+//     {
+//         Console.Write("III Четверть");
+//     }
+//     else if (X>0 && Y<0)
+//     {
+//         Console.Write("IV Четверть");
+//     }
+//     else
+//     {
+//         Console.Write("Ошибка");
+//     }
+
+// Создаем метод для решения данной задачи
+
+// int returnMethod(string message)
+// {
+//     Console.Write(message);
+//     int quantity = int.Parse(Console.ReadLine());
+//     return quantity;
+// }
+//     string FindQuater(int X, int Y)
+// {
+//     string result = string.Empty;
+//     if (X>0 && Y>0)
+//     {
+//         result = "I четверть";
+//     }
+//     else if (X<0 && Y>0)
+//     {
+//         result = "II четверть";
+//     }
+//     else if (X<0 && Y<0)
+//     {
+//         result = "III четверть";
+//     }
+//     else if (X>0 && Y<0)
+//     {
+//         result = "IV четверть";
+//     }
+//     else
+//     {
+//         result = "ошибка";
+//     }
+//     return result;
+// }
+// int X = returnMethod("Введите точку X = ");
+// int Y = returnMethod("Введите точку Y = ");
+// Console.Write(FindQuater(X,Y));
