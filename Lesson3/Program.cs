@@ -128,3 +128,30 @@
 // }
 // int quater = FindCoordinate_Method("Какая четверть?");
 // Console.Write(FindCoordinate(quater));
+
+// Задача 21: Напишите программу, которая
+// // принимает на вход координаты двух точек и
+// // находит расстояние между ними в 2D
+// // пространстве.
+// // A (3,6); B (2,1) -> 5,09
+// // A (7,-5); B (1,-1) -> 7,21
+
+// Метод без массива
+
+// int Find_lentgh_btw_2_points(string message)
+// {
+//     Console.Write(message);
+//     int number = int.Parse(Console.ReadLine());
+//     return number;
+// }
+// double Length(double Xa, double Ya, double Xb, double Yb)
+// {
+//     double Length = Math.Sqrt((Xa-Xb)*(Xa-Xb)+(Ya-Yb)*(Ya-Yb));
+//     return Length;
+// }
+// double Xa = Find_lentgh_btw_2_points("Точка А, координата X = ");
+// double Ya = Find_lentgh_btw_2_points("Точка А, координата Y = ");
+// double Xb = Find_lentgh_btw_2_points("Точка B, координата X = ");
+// double Yb = Find_lentgh_btw_2_points("Точка B, координата Y = ");
+// Console.Write(Length(Xa,Ya,Xb,Yb));
+
