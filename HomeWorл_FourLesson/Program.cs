@@ -25,3 +25,59 @@
 // int number_B = WorkWithUser("Введите степень: ");
 
 // Console.Write(Chislo_v_stepeni(number_A, number_B));
+
+// Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+// 452 -> 11
+// 82 -> 10
+// 9012 -> 12
+
+// int WorkWithUser(string message)
+// {
+//     Console.Write(message);
+//     int number = int.Parse(Console.ReadLine());
+//     return number;
+// }
+
+// int FindSum(int number)
+// {
+    
+
+//    return sum;
+// }
+// int number = WorkWithUser("Сумма = ");
+// Console.Write(FindSum(number));
+
+// Console.Write("Введите  ");
+// int A = int.Parse(Console.ReadLine());
+// int Res=A%10;
+// Console.Write(Res);
+
+// Возвратным методом у мкеня не получилось =(
+
+// void FindSum (int i)
+// {
+// int sum = 0;
+
+// while (i > 0)
+// {
+// int num = i % 10;
+// i = i / 10;
+// sum = sum + num;
+// }
+// }
+// int i = WorkWithUser("Введите число: ");
+// Console.Write(i);
+
+// Решаем в лоб.
+
+// Console.WriteLine("введите число");
+// int i = Convert.ToInt32(Console.ReadLine());
+// int sum = 0;
+
+// while (i > 0)
+// {
+// int num = i % 10;
+// i = i / 10;
+// sum = sum + num;
+// }
+// Console.WriteLine("сумма всех цифр в числе равна: " + sum);
