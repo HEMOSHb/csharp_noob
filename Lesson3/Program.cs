@@ -137,23 +137,30 @@
 // // A (7,-5); B (1,-1) -> 7,21
 
 // Метод без массива
+static bool IsPalindrome(int number){
+        if (number < 10000 || number >= 100000){
+            Console.WriteLine("Число не пятизначное");
+            return false;
 
-// int Find_lentgh_btw_2_points(string message)
-// {
-//     Console.Write(message);
-//     int number = int.Parse(Console.ReadLine());
-//     return number;
-// }
-// double Length(double Xa, double Ya, double Xb, double Yb)
-// {
-//     double Length = Math.Sqrt((Xa-Xb)*(Xa-Xb)+(Ya-Yb)*(Ya-Yb));
-//     return Length;
-// }
-// double Xa = Find_lentgh_btw_2_points("Точка А, координата X = ");
-// double Ya = Find_lentgh_btw_2_points("Точка А, координата Y = ");
-// double Xb = Find_lentgh_btw_2_points("Точка B, координата X = ");
-// double Yb = Find_lentgh_btw_2_points("Точка B, координата Y = ");
-// Console.Write(Length(Xa,Ya,Xb,Yb));
+int DistanceBetweenPoints(int Length)
+{
+    Console.Write(message);
+    int number = int.Parse(Console.ReadLine());
+    return number;
+}
+double Length(double x1, double x2, double x3, double y1, double y2, double y3)
+{
+    double Length = Math.Sqrt((x1-y1)*(x1-y1)+(x2-y2)*(x2-y2)+(x3-y3)*(x3-y3));
+    return Length;
+}
+double x1 = DistanceBetweenPoints("Точка А, координата X1 = ");
+double x2 = DistanceBetweenPoints("Точка А, координата X2 = ");
+double x3 = DistanceBetweenPoints("Точка A, координата X3 = ");
+double y1 = DistanceBetweenPoints("Точка B, координата Y1 = ");
+double y2 = DistanceBetweenPoints("Точка B, координата Y2 = ");
+double y3 = DistanceBetweenPoints("Точка B, координата Y3 = ");
+
+Console.Write(Length(x1,x2,x3,y1,y2,y3));
 
 // Задача 22: Напишите программу, которая
 // принимает на вход число (N) и выдаёт таблицу
