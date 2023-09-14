@@ -81,3 +81,35 @@
 // sum = sum + num;
 // }
 // Console.WriteLine("сумма всех цифр в числе равна: " + sum);
+
+//  Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+// 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
+// 6, 1, 33 -> [6, 1, 33]
+
+
+// Console.Write("Введите количество элементов массива: ");
+
+// int Quantity_elements = int.Parse(Console.ReadLine());
+
+// int[] my_array = new int [Quantity_elements];
+
+// for (int i=0; i<my_array.Length; i++)
+// {
+//     Console.Write($"Введите элемент массива под индексом {i}:  ");
+//     my_array[i]=int.Parse(Console.ReadLine());
+// }
+
+
+// {
+// Console.Write("Вывод массива [ ");
+// for (int i=0; i<my_array.Length; i++)
+// {
+//     Console.Write($"{my_array[i]} ","");
+// }
+// Console.Write("]");
+// Console.ReadLine();
+// }
+
+ 
+
+
