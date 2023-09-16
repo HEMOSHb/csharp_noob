@@ -13,7 +13,7 @@
 //             return false;
 //         }
 
-//         int reverse = 0;
+//         int reverse = 0;                       // Проверка на палиндром
 //         int temp = number;
 //         while (temp > 0){
 //             reverse = reverse * 10 + temp % 10;
