@@ -87,28 +87,28 @@
 // 6, 1, 33 -> [6, 1, 33]
 
 
-// Console.Write("Введите количество элементов массива: ");
+Console.Write("Введите количество элементов массива: ");
 
-// int Quantity_elements = int.Parse(Console.ReadLine());
+int Quantity_elements = int.Parse(Console.ReadLine());
 
-// int[] my_array = new int [Quantity_elements];
+int[] my_array = new int [Quantity_elements];
 
-// for (int i=0; i<my_array.Length; i++)
-// {
-//     Console.Write($"Введите элемент массива под индексом {i}:  ");
-//     my_array[i]=int.Parse(Console.ReadLine());
-// }
+for (int i=0; i<my_array.Length; i++)
+{
+    Console.Write($"Введите элемент массива под индексом {i}:  ");
+    my_array[i]=int.Parse(Console.ReadLine());
+}
 
 
-// {
-// Console.Write("Вывод массива [ ");
-// for (int i=0; i<my_array.Length; i++)
-// {
-//     Console.Write($"{my_array[i]} ","");
-// }
-// Console.Write("]");
-// Console.ReadLine();
-// }
+{
+Console.Write("Вывод массива [ ");
+for (int i=0; i<my_array.Length; i++)
+{
+    Console.Write($"{my_array[i]} ","");
+}
+Console.Write("]");
+Console.ReadLine();
+}
 
  
 
