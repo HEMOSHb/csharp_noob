@@ -46,14 +46,7 @@ void SquareArray(int[,] inArray)
 
 void PrintArray(int[,] inArray)
 {
-    for (int i = 0; i < inArray.GetLength(0); i++)
-    {
-        for (int j = 0; j < inArray.GetLength(1); j++)
-        {
-            Console.Write($"{inArray[i, j]} ");
-        }
-        Console.WriteLine();
-    }
+    Console.Write ($"The number in [{x}, {y}] is {result}")
 }
 
 int rows = WorkWithUser("Введите количество строк: ");
