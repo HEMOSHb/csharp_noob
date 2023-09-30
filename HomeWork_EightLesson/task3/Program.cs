@@ -22,6 +22,8 @@ MultiplyMatrix(firstMartrix, secomdMartrix, resultMatrix);
 Console.WriteLine($"\nПроизведение первой и второй матриц:");
 WriteArray(resultMatrix);
 
+//  Перемножаем матрицы, и строим её в виде одной матрицы
+
 void MultiplyMatrix(int[,] firstMartrix, int[,] secomdMartrix, int[,] resultMatrix)
 {
   for (int i = 0; i < resultMatrix.GetLength(0); i++)
@@ -38,6 +40,7 @@ void MultiplyMatrix(int[,] firstMartrix, int[,] secomdMartrix, int[,] resultMatr
   }
 }
 
+//  Ввод переменных
 int WorkWithUser(string message)
 {
     Console.Write(message);
@@ -45,6 +48,7 @@ int WorkWithUser(string message)
     return number;
 }
 
+//  Строим матрицы (обращаясь к этому методу можно построить двумерную матрицу с элементами о 1 до значения range)
 void CreateArray(int[,] array)
 {
   for (int i = 0; i < array.GetLength(0); i++)
@@ -56,6 +60,7 @@ void CreateArray(int[,] array)
   }
 }
 
+// Вывод матриц на консоль
 void WriteArray (int[,] array)
 {
   for (int i = 0; i < array.GetLength(0); i++)
