@@ -15,5 +15,12 @@ int PrintNumbersAckerman(int m,int n)
 }
 int m = EnterValue ("Введите m:  ");
 int n = EnterValue ("Введите n:  ");
- 
+
+if (m < 0 || n<0)
+{
+    Console.Write("Числа m и n должны быть не отрицательными, попробуй еще раз!!!!");
+}
+else
+{
 Console.Write ($"m = {m}, n = {n} => A(m,n) = {PrintNumbersAckerman(m,n)}");
+}
